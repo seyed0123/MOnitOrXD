@@ -1,14 +1,16 @@
 import psutil
 import GPUtil
+import cpuinfo
+
 
 # Function to check CPU usage
 def check_cpu_usage(threshold=50):
     cpu_usage = psutil.cpu_percent(interval=1)
-
+    cpu_info = cpuinfo.get_cpu_info()
     if cpu_usage > threshold:
         print(f"High CPU usage detected: {cpu_usage}%")
     else:
-        print(f"CPU usage : {cpu_usage}%")
+        print(f"CPU usage : {cpu_usage}% , CPU model: {cpu_info['brand_raw']} , number of CORS: {cpu_info['count']}, ")
 
 
 # Function to check memory usage
