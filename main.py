@@ -6,6 +6,7 @@ import os
 import time
 import psutil
 from check import run_health_checks
+from GUI import start
 
 def print_hi():
     for process in psutil.process_iter(['pid', 'name', 'memory_info', 'cpu_percent']):
@@ -15,10 +16,11 @@ def print_hi():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print_hi()
-    while True:
-        os.system('cls')
-        run_health_checks()
-        time.sleep(5)  # pause for 5 seconds
+    # while True:
+    #     os.system('cls')
+    #     run_health_checks()
+    #     time.sleep(5)  # pause for 5 seconds
+    start()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
