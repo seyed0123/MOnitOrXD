@@ -9,7 +9,7 @@ Whether you're interested in tracking CPU usage, RAM consumption, network traffi
 
 What sets this application apart is its use of a Pygame GUI for data visualization, coupled with terminal-based plots for a more granular view of system performance. This dual-mode display ensures you have all the information you need at your fingertips, whether you prefer a graphical interface or a command-line view.
 
-Designed with simplicity and efficiency in mind, System Performance Monitor is your go-to tool for keeping an eye on your system's health and performance. Whether you're a power user wanting to optimize your system, a developer debugging performance issues, or just curious about your system's workings, this application is for you.
+Designed with simplicity and efficiency in mind, the System Performance Monitor is your go-to tool for keeping an eye on your system's health and performance. Whether you're a power user wanting to optimize your system, a developer debugging performance issues, or just curious about your system's workings, this application is for you.
 
 Join us as we dive into the world of system monitoring and performance optimization. Welcome aboard!
 ## Dependencies
@@ -48,7 +48,7 @@ The application provides the following features:
 
 Each feature corresponds to a specific function in the application that performs the monitoring task and returns the relevant data.
 ## Contributing
-Contributions to the project are welcome. If you have a feature request, bug report, or want to improve existing features, please feel free to make a pull request or open an issue.
+Contributions to the project are welcome. If you have a feature request, or bug report, or want to improve existing features, please feel free to make a pull request or open an issue.
 
 ## License
 This project is licensed under the MIT [License](LICENSE).
