@@ -3,6 +3,7 @@ import check
 import pygame
 
 def start():
+    check.bef_time = time.time()
     # Initialize Pygame
     pygame.init()
 
